@@ -1,0 +1,19 @@
+{
+  "name": "redis-cache-nodjs",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "How to install Redis Stack using Docker",
+  "main": "index.js",
+  "scripts": {
+    "redis:local": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.0.3",
+    "redis": "^4.6.12"
+  }
+}
